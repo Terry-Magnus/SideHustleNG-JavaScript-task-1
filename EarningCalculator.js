@@ -2,7 +2,7 @@
 /* A simple program to calculate daily earnings
 */
 function salaryCalc(hrs) {
-	var wage = 4000; // wage is already fixed since 1000/hr and normal time is 4hrs
+	var wage = 1000 * hrs; // wage is already fixed since 1000/hr
 	if(hrs <= 4) { 
 		var tip = 0;	//no overtime earnings if hrs <= 4
 	}
